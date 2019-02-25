@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<meta charset="UTF-8">
+<head>
+
+    <link rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}"/>
+    <title>
+        Soy una pagina
+    </title>
+
+</head>
+<body BGCOLOR="#a0ffa2">
+
+
+<h1 id="titulo">Curriculum Vitae</h1>
+<div>
+
+<table class="div1" id="infoPers">
+<tr>
+    <th>
+        Nombre:
+    </th>
+    <th>
+
+        <div th:text="${InfoPers.nombre}"></div>
+    </th>
+</tr>
+    <tr>
+        <th>
+            Lugar y fecha de nacimiento:
+        </th>
+        <th>
+            <label th:utext="${InfoPers.fechaN}"></label>
+            <label th:utext="${InfoPers.lugarN}"></label>
+        </th>
+
+    </tr>
+<tr>
+    <th>
+        Direccion:
+    </th>
+    <th>
+        <label th:utext="${InfoPers.dir}"></label>
+    </th>
+</tr>
+    <tr>
+        <th>
+            Telefono: <label th:utext="${InfoPers.tel}"></label>
+
+        </th>
+        <th>
+            Email: <label th:utext="${InfoPers.mail}"></label>
+        </th>
+    </tr>
+</table>
+    <div class="foto">
+        Foto
+    </div>
+</div>
+
+<div class="div2" id="formAcad">
+    <h3>
+        Formacion Academica
+    </h3>
+<label th:text="${InfoAcad.dato1}"></label>
+</div>
+
+<div class="div2" id="otros">
+    <h3>
+        Otros cursos y Seminarios
+    </h3>
+    <label th:text="${InfoAcad.dato2}"></label><br>
+    <label th:text="${InfoAcad.dato3}"></label><br>
+    <label th:text="${InfoAcad.dato4}"></label><br>
+</div>
+
+<div class="div2" id="expProf">
+    <h3>
+        Experiencia Profesional
+    </h3>
+    <label th:text="${ExpProf.dato1}"></label>
+</div>
+<div class="div3" id="idiomas">
+    <h3>
+        Idiomas
+    </h3>
+
+    Ingles: <label th:text="${InfoPers.idioma1}"></label><br>
+    Frances: <label th:text="${InfoPers.idioma2}"></label><br>
+    Japones: <label th:text="${InfoPers.idioma3}"></label>
+</div>
+<div class="div2" id="informatica">
+    <h3>
+        Informatica
+    </h3>
+    <label th:text="${InfoPers.informatica1}"></label><br>
+    <label th:text="${InfoPers.informatica2}"></label><br>
+    <label th:text="${InfoPers.informatica3}"></label><br>
+    <label th:text="${InfoPers.informatica4}"></label>
+</div>
+</body>
+</html>

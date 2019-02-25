@@ -1,0 +1,81 @@
+
+
+
+    .div1{
+        border-style: solid;
+        border-color: black;
+        width: 30%;
+        margin-top: 1%;
+        background-color: #bdffc2;
+    }
+
+    .div2{
+        width: 40%;
+        border-style: solid;
+        border-color: black;
+        margin-top: 1%;
+        background-color: #bdffc2;
+    }
+
+    .div3{
+        width: 50%;
+        border-style: solid;
+        border-color: black;
+        margin-top: 1%;
+        background-color: #bdffc2;
+    }
+
+    .foto{
+        position: absolute;
+         border-style: solid;
+         border-color: black;
+        text-align: center;
+        width: 200px;
+        height: 200px;
+        top: 10%;
+        left: 72%;
+     }
+
+    #infoPers{
+        position: relative;
+        top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #formAcad{
+        position: relative;
+        top:10%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #otros{
+        position: relative;
+        top: 32%;
+        margin-left: auto;
+        margin-right: auto;
+     }
+    #expProf{
+        position: relative;
+        top: 49.6%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #idiomas{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        top: 62%;
+
+    }
+    #informatica{
+        position: relative;
+        top: 79.7%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #titulo{
+        text-align: center;
+    }
